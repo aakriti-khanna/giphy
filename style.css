@@ -1,0 +1,188 @@
+ body{
+    background-color: black;
+ }
+
+.container-1 .nav-bar{
+    background-color: rgb(12, 12, 12);
+    margin-left: 40px;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 70px;
+    width: 100%;
+    
+}
+
+.nav-bar .nav-logo a img{
+
+    height: 70px;
+    width: 200px;
+    background-color: black;
+   
+}
+
+.nav-bar .navigator a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+   color: white;
+   margin-right: 20px
+}
+ .nav-bar #e  a img {
+    height: 40px;
+   background-color: rgb(12, 12, 12);
+  
+} 
+.nav-bar #f  a button {
+    height: 40px;
+    background-color:#6157ff;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid#6157ff;
+   
+  
+} 
+.nav-bar #g a button {
+    height: 40px;
+    background-color:#9933ff;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #9933ff;
+   
+  
+} 
+
+.nav-bar #h a button {
+    height: 40px;
+    background-color:#2e2e2e;
+    width: 130px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #2e2e2e;
+   
+  
+} 
+
+.search-bar .bar{
+    height: 70px;
+    width: 790px;
+    margin-left: 250px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.search_btn {
+    background: linear-gradient(45deg, #6157ff, #e0409b);
+    outline: none;
+    width: 105px;
+    height: 75px;
+    margin-right: -2px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .Allgifs img{
+    margin-left: 250px;
+    width: 904px;
+    height: 100px;
+}
+
+  .trending{
+    color: white;
+    display: flex;
+  }
+  .trending .tb-1 .tb-a .text {
+   display: flex;
+  margin-left: 250px;
+   
+  }
+  .trending .tb-1 .tb-a .text i {
+   margin-top: 20px;
+   
+    
+   }
+  .trending .tb-1 .tb-a .text h3{
+    margin-left: 10px;
+  }
+  .trending .tb-2 .btn .btn-a{
+    height: 40px;
+    margin-bottom: 30px;
+    width: 105px;
+  }
+  .trending .tb-2 .btn .btn-b{
+    height: 40px;
+    margin-bottom: 30px;
+    width: 105px;
+    border-radius: 100px;
+  }
+
+  .trending .tb-2 .btn .btn-c{
+    height: 40px;
+    margin-bottom: 30px;
+    width: 105px;
+    border-radius: 100px;
+  }
+
+  .trending .tb-2 .btn {
+    color: white;
+    margin-top: 20px;
+    margin-left: 348px;
+    /* padding-top: 5px; */
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 310px;
+    height: 40px;
+    display: flex;
+  }
+
+  .trending .tb-2 .btn #A{
+    border: 1px solid white;
+    width: 280px;
+
+  }
+  .trending .btn-a {
+   border: 1 px solid grey;
+   border-radius: 100px;
+   height: 40px;
+   width: 290px;
+    
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  figure {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  figure > img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  figcaption {
+    column-count: 4;
+    column-gap: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(18, 17, 17);
+    flex-wrap: wrap;
+  }
+  
+
+.container-3{
+  column-count: 4;
+  column-gap: 10px;
+  background-color: #000;
+}
+
